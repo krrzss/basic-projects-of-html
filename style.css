@@ -1,29 +1,5 @@
-*{
-margin: 10px;
-}
-.black{
-    border: 2px solid;
-    width: 123px;
-    background-color: black;
-}
 .red{
-border: 2px solid red;
-height: 100px;
-width: 100px;
+border: 2px;
 border-radius: 50%;
 background-color: red;
-}
-.green{
-border: 2px solid green;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-background-color: green;
-}
-.yellow{
-border: 2px solid yellow;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-background-color: yellow;
 }
