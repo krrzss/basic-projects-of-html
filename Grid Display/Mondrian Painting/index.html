@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONDRIAN PAINTING</title>
+    <style>
+        .container{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            display: grid;
+            grid-template-columns: 100px 260px 20px;
+            grid-template-rows: 140px  140px 45px 45px;
+            gap: 10px;
+            border: solid 4px black;
+        }
+        .item{
+            color: white;
+        }
+        .white1{
+            background-color: white;
+        }
+        .red{
+            background-color: red;
+            grid-area: 1/ 2/ 3/ 4;
+        }
+        .white3{
+            background-color: white;
+        }
+        .blue{
+            background-color: blue;
+            grid-area: 3/1/ 5/2;
+        }
+        .white5{
+            background-color: white;
+            grid-area: 3/2/5/-2;
+        }
+        .white6{
+            background-color: white;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>MONDRIAN PAINTING</h1>
+    <div class="container">
+    <div class="item white1"></div>
+    <div class="item red"></div>
+    <div class="item white3"></div>
+    <div class="item blue"></div>
+    <div class="item white5"></div>
+    <div class="item white6"></div>
+    <div class="item yellow"></div>
+    </div>
+</body>
+</html>
